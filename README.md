@@ -6,7 +6,6 @@
 - Permet à l'utilisateur de calculer le(s) racine(s).
 
 - Permet à l'utilisateur de savoir la forme canonique du trinôme.
--> Le code de la forme canonique est cependant encore sous développement, donc il peut y avoir des erreurs !
 
 ---
 
