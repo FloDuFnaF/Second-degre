@@ -62,12 +62,16 @@ def choix():
         c=float(input("Combien sera c ? : "))
         # Le code va calculer tout seul delta et dire à l'utilisateur le nombre précis.
         delta=b*b-4*a*c
+        h = -b / (2 * a)  # Le terme h dans (x - h)^2
+        k = delta / (4 * a)  # Le terme k ajouté ou soustrait à la fin
+        h_sign = f"- {abs(h)}" if h >= 0 else f"+ {abs(h)}"
+        k_sign = f"+ {abs(k)}" if k < 0 else f"- {abs(k)}"
 
         def canonique():
             # La partie juste ici est encore en développement, de ce fait, je n'ai pas trop d'idée(s), et j'improvise légèrement ce que je fais. Mais voici ce que je peux apporter :
             print("Pour calculer la forme canonique, nous devons transformer l'équation (Le programme n'est pas forcément pertinent)")
             print("La forme canonique d'un trinôme du second degré est : ax² +- bx +- c = a[(x + b / 2a)² - delta / 4a²]")
-            print("La forme canonique du trinôme est :", a ,"x² +", b ,"x +", c ,"=", a ,"[(x +",b/(2*a),")² -",(delta/(4*a**2)),"]")
+            print(f"La forme canonique du trinôme est : {a}[(x {h_sign})² {k_sign}]")
     if choix == "racines":
         racines() 
     elif choix == "canonique":
