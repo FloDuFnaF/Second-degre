@@ -1,14 +1,13 @@
-# 🧮 - Mathématique
+### 🧮 - Mathematics
 
-## ♾️ - Objectifs
+## ♾️ - Objectives
 
-- Permet à l'utilisateur de calculer le discriminant (Delta) afin de déterminer si le trinôme du second degré possède une, plusieurs, ou aucune racine.
-- Permet à l'utilisateur de calculer le(s) racine(s).
+- Allows the user to calculate the discriminant (Delta) to determine whether the quadratic trinomial has one, several, or no roots.
+- Allows the user to calculate the root(s).
 
-- Permet à l'utilisateur de savoir la forme canonique du trinôme.
-
+- Allows the user to determine the canonical form of the trinomial.
+- 
 ---
 
-Signé - FloDuFnaF
+Signed - flodufnaf
 🎮 - Discord : flodufnaf
-💻 - Email : flodufnaf3@gmail.com
