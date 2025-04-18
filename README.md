@@ -6,7 +6,6 @@
 - Allows the user to calculate the root(s).
 
 - Allows the user to determine the canonical form of the trinomial.
-- 
 ---
 
 Signed - flodufnaf
