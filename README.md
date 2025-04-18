@@ -1,6 +1,6 @@
-### 🧮 - Mathematics
+## 🧮 - Mathematics
 
-## ♾️ - Objectives
+# ♾️ - Objectives
 
 - Allows the user to calculate the discriminant (Delta) to determine whether the quadratic trinomial has one, several, or no roots.
 - Allows the user to calculate the root(s).
