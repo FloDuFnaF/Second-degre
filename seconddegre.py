@@ -80,3 +80,4 @@ def choix():
         print("Commande non reconnues.")
         print(fin)       
 choix()
+# 𓆝 𓆟 𓆞 𓆝 𓆟
